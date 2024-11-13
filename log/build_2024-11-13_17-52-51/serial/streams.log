@@ -1,0 +1,11 @@
+[0.071s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/serial
+[0.090s] -- 
+[0.090s] ## Reading serial/CMakeLists.txt...
+[0.110s] -- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[0.604s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.059s] -- Configuring incomplete, errors occurred!
+[1.059s] [31mCMake Error at tests/CMakeLists.txt:2 (catkin_add_gtest):
+[1.059s]   Unknown CMake command "catkin_add_gtest".
+[1.059s] 
+[1.059s] [0m
+[1.060s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/serial' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/serial

@@ -1,0 +1,1 @@
+moveit_ros_move_group;moveit_kinematics;moveit_planners_ompl;moveit_ros_visualization;moveit_ros_benchmarks;moveit_ros_warehouse;warehouse_ros_mongo;joint_state_publisher;robot_state_publisher;xacro;joy;rviz;niryo_robot_description;python3-catkin-lint

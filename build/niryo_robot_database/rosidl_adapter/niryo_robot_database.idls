@@ -1,0 +1,7 @@
+/home/leah/ros2_jazzy_ned2/build/niryo_robot_database/rosidl_adapter/niryo_robot_database:msg/FilePath.idl
+/home/leah/ros2_jazzy_ned2/build/niryo_robot_database/rosidl_adapter/niryo_robot_database:msg/Setting.idl
+/home/leah/ros2_jazzy_ned2/build/niryo_robot_database/rosidl_adapter/niryo_robot_database:srv/AddFilePath.idl
+/home/leah/ros2_jazzy_ned2/build/niryo_robot_database/rosidl_adapter/niryo_robot_database:srv/GetAllByType.idl
+/home/leah/ros2_jazzy_ned2/build/niryo_robot_database/rosidl_adapter/niryo_robot_database:srv/GetSettings.idl
+/home/leah/ros2_jazzy_ned2/build/niryo_robot_database/rosidl_adapter/niryo_robot_database:srv/RmFilePath.idl
+/home/leah/ros2_jazzy_ned2/build/niryo_robot_database/rosidl_adapter/niryo_robot_database:srv/SetSettings.idl

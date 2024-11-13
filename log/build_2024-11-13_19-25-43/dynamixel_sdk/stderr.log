@@ -1,0 +1,3 @@
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/src/port_handler_linux.cpp:78:17:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Ned 2 compilation[m[K’
+   78 | #pragma message [01;36m[K"Ned 2 compilation"[m[K
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K

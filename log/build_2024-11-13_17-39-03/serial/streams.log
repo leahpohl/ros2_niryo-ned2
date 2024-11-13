@@ -1,0 +1,42 @@
+[0.065s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/serial
+[0.091s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.091s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.091s]   CMake.
+[0.091s] 
+[0.091s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.091s]   CMake that the project does not need compatibility with older versions.
+[0.091s] 
+[0.091s] [0m
+[0.153s] -- The C compiler identification is GNU 13.2.0
+[0.222s] -- The CXX compiler identification is GNU 13.2.0
+[0.245s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.593s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.593s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.593s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.593s]   CMake did not find one.
+[0.593s] 
+[0.593s]   Could not find a package configuration file provided by "catkin" with any
+[0.593s]   of the following names:
+[0.593s] 
+[0.593s]     catkinConfig.cmake
+[0.593s]     catkin-config.cmake
+[0.593s] 
+[0.593s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.593s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.593s]   provides a separate development package or SDK, be sure it has been
+[0.593s]   installed.
+[0.593s] 
+[0.593s] [0m
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.593s] -- Detecting CXX compile features
+[0.593s] -- Detecting CXX compile features - done
+[0.593s] -- 
+[0.593s] ## Reading serial/CMakeLists.txt...
+[0.593s] -- Configuring incomplete, errors occurred!
+[0.594s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/serial' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/serial

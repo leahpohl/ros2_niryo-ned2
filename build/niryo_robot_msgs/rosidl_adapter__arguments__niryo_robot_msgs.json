@@ -1,0 +1,29 @@
+{
+  "package_name": "niryo_robot_msgs",
+  "non_idl_tuples": [
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/BasicObject.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/BasicObjectArray.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/BusState.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/CommandStatus.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/HardwareStatus.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/MotorHeader.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/ObjectPose.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/RPY.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/RobotState.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:msg/SoftwareVersion.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/AdvertiseShutdown.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/GetBool.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/GetInt.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/GetNameDescriptionList.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/GetString.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/GetStringList.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/Ping.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/SetBool.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/GetFloatList.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/SetFloatList.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/SetFloat.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/SetInt.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/SetString.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs:srv/Trigger.srv"
+  ]
+}

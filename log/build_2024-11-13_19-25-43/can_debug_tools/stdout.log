@@ -1,0 +1,5 @@
+-- 
+## Reading can_debug_tools/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found mcp_can_rpi: 1.0.0 (/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/cmake)
+-- Configuring incomplete, errors occurred!

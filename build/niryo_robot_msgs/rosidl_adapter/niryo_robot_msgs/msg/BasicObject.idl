@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from niryo_robot_msgs/msg/BasicObject.msg
+// generated code does not contain a copyright notice
+
+
+module niryo_robot_msgs {
+  module msg {
+    struct BasicObject {
+      string name;
+
+      string description;
+    };
+  };
+};

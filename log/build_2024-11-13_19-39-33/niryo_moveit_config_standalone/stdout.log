@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+## Reading niryo_moveit_config_standalone/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found niryo_robot_description: 5.0.0 (/home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/cmake)
+-- Found ament_lint_auto: 0.17.1 (/home/leah/ros2_jazzy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/leah/ros2_jazzy_ned2/build/niryo_moveit_config_standalone
+-- Install configuration: ""
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/trajectory_execution.launch.xml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/sensor_manager.launch.xml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/joystick_control.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/warehouse_settings.launch.xml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/moveit.rviz
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/demo.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/move_group.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/default_warehouse_db.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/planning_context.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/warehouse.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/planning_pipeline.launch.xml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/moveit_rviz.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/niryo_moveit_controller_manager.launch.xml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/niryo_moveit_sensor_manager.launch.xml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/ompl_planning_pipeline.launch.xml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/launch/run_benchmark_ompl.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned2
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned2/ros_controllers.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned2/niryo_ned2.srdf
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned2/simulation
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned2/simulation/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned2/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/one
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/one/niryo_one.srdf
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/one/simulation
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/one/simulation/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/one/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/kinematics.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ompl_planning.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/sensors_3d.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned3pro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned3pro/ros_controllers.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned3pro/niryo_ned3pro.srdf
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned3pro/simulation
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned3pro/simulation/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned3pro/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned/ros_controllers.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned/niryo_ned.srdf
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned/simulation
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned/simulation/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/config/ned/joint_limits.yaml
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/ament_index/resource_index/package_run_dependencies/niryo_moveit_config_standalone
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/ament_index/resource_index/parent_prefix_path/niryo_moveit_config_standalone
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/environment/ament_prefix_path.sh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/environment/ament_prefix_path.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/environment/path.sh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/environment/path.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/local_setup.bash
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/local_setup.sh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/local_setup.zsh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/local_setup.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/package.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/ament_index/resource_index/packages/niryo_moveit_config_standalone
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/cmake/niryo_moveit_config_standaloneConfig.cmake
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/cmake/niryo_moveit_config_standaloneConfig-version.cmake
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_moveit_config_standalone/share/niryo_moveit_config_standalone/package.xml

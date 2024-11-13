@@ -1,0 +1,1 @@
+joint_state_publisher:joy:moveit_kinematics:moveit_planners_ompl:moveit_ros_benchmarks:moveit_ros_move_group:moveit_ros_visualization:moveit_ros_warehouse:niryo_robot_description:robot_state_publisher:rviz:warehouse_ros_mongo:xacro

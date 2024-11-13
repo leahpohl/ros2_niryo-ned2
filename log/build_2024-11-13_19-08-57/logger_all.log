@@ -1,0 +1,1214 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'dynamixel_sdk']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dynamixel_sdk'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77460bce7050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77460bce6db0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77460bce6db0>>, mixin_verb=('build',))
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.167s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leah/ros2_jazzy_ned2'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_end_effector_publisher_gui) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_end_effector_publisher_gui' with type 'ros.catkin' and name 'niryo_end_effector_publisher_gui'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_arm_commander) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_arm_commander' with type 'ros.catkin' and name 'niryo_robot_arm_commander'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_bringup) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_bringup' with type 'ros.catkin' and name 'niryo_robot_bringup'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_database) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_database' with type 'ros.catkin' and name 'niryo_robot_database'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_description) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_description' with type 'ros.catkin' and name 'niryo_robot_description'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_gazebo) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_gazebo' with type 'ros.catkin' and name 'niryo_robot_gazebo'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_debug_tools) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/can_debug_tools' with type 'ros.catkin' and name 'can_debug_tools'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/can_driver) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/can_driver' with type 'ros.catkin' and name 'can_driver'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/common) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/common' with type 'ros.catkin' and name 'common'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/conveyor_interface) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/conveyor_interface' with type 'ros.catkin' and name 'conveyor_interface'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/cpu_interface) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/cpu_interface' with type 'ros.catkin' and name 'cpu_interface'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk' with type 'ros.catkin' and name 'dynamixel_sdk'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/end_effector_interface) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/end_effector_interface' with type 'ros.catkin' and name 'end_effector_interface'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/joints_interface) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/joints_interface' with type 'ros.catkin' and name 'joints_interface'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi' with type 'ros.catkin' and name 'mcp_can_rpi'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface' with type 'ros.catkin' and name 'niryo_robot_hardware_interface'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/serial) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/serial' with type 'ros.catkin' and name 'serial'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/tools_interface) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/tools_interface' with type 'ros.catkin' and name 'tools_interface'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools' with type 'ros.catkin' and name 'ttl_debug_tools'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_hardware_stack/ttl_driver) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_hardware_stack/ttl_driver' with type 'ros.catkin' and name 'ttl_driver'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_led_ring) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_led_ring' with type 'ros.catkin' and name 'niryo_robot_led_ring'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_metrics) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_metrics' with type 'ros.catkin' and name 'niryo_robot_metrics'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_modbus) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_modbus' with type 'ros.catkin' and name 'niryo_robot_modbus'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone' with type 'ros.catkin' and name 'niryo_moveit_config_standalone'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1' with type 'ros.catkin' and name 'niryo_moveit_config_w_gripper1'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_msgs) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_msgs' with type 'ros.catkin' and name 'niryo_robot_msgs'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_poses_handlers) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_poses_handlers' with type 'ros.catkin' and name 'niryo_robot_poses_handlers'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_program_player) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_program_player' with type 'ros.catkin' and name 'niryo_robot_program_player'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_programs_manager' with type 'ros.catkin' and name 'niryo_robot_programs_manager'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_programs_manager_v2) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_programs_manager_v2' with type 'ros.catkin' and name 'niryo_robot_programs_manager_v2'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_python_ros_wrapper) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_python_ros_wrapper' with type 'ros.catkin' and name 'niryo_robot_python_ros_wrapper'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_reports) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_reports' with type 'ros.catkin' and name 'niryo_robot_reports'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_rpi) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_rpi' with type 'ros.catkin' and name 'niryo_robot_rpi'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_sound) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_sound' with type 'ros.catkin' and name 'niryo_robot_sound'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_status) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_status' with type 'ros.catkin' and name 'niryo_robot_status'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_system_api_client) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_system_api_client' with type 'ros.catkin' and name 'niryo_robot_system_api_client'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_tools_commander) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_tools_commander' with type 'ros.catkin' and name 'niryo_robot_tools_commander'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_user_interface) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_user_interface' with type 'ros.catkin' and name 'niryo_robot_user_interface'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_utils) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_utils' with type 'ros.catkin' and name 'niryo_robot_utils'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/niryo_robot_vision) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ned_ros/niryo_robot_vision' with type 'ros.catkin' and name 'niryo_robot_vision'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/ros-foxglove-bridge) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/_static/audio) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/front_end) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/installation) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/high_level/gif_led_ring) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/images/stack/low_level) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/installation) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/modbus) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/python_ros_wrapper) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/high_level) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/low_level) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/en/LC_MESSAGES/source/stack/third_parties) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/installation) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/modbus) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/python_ros_wrapper) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/high_level) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/low_level) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/locale/fr/LC_MESSAGES/source/stack/third_parties) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/resources/installation) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/scripts) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/installation) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/modbus) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/python_ros_wrapper) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/high_level) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/low_level) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/source/stack/third_parties) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ned_ros/sphinx_doc/static) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mcp_can_rpi' in 'src/ned_ros/niryo_robot_hardware_stack/mcp_can_rpi'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_database' in 'src/ned_ros/niryo_robot_database'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_description' in 'src/ned_ros/niryo_robot_description'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_msgs' in 'src/ned_ros/niryo_robot_msgs'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial' in 'src/ned_ros/niryo_robot_hardware_stack/serial'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'can_debug_tools' in 'src/ned_ros/niryo_robot_hardware_stack/can_debug_tools'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'common' in 'src/ned_ros/niryo_robot_hardware_stack/common'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_moveit_config_standalone' in 'src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_standalone'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_moveit_config_w_gripper1' in 'src/ned_ros/niryo_robot_moveit_config/niryo_moveit_config_w_gripper1'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_metrics' in 'src/ned_ros/niryo_robot_metrics'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_modbus' in 'src/ned_ros/niryo_robot_modbus'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_programs_manager' in 'src/ned_ros/niryo_robot_programs_manager'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_programs_manager_v2' in 'src/ned_ros/niryo_robot_programs_manager_v2'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_reports' in 'src/ned_ros/niryo_robot_reports'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_rpi' in 'src/ned_ros/niryo_robot_rpi'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_status' in 'src/ned_ros/niryo_robot_status'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_system_api_client' in 'src/ned_ros/niryo_robot_system_api_client'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_utils' in 'src/ned_ros/niryo_robot_utils'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_vision' in 'src/ned_ros/niryo_robot_vision'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'can_driver' in 'src/ned_ros/niryo_robot_hardware_stack/can_driver'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpu_interface' in 'src/ned_ros/niryo_robot_hardware_stack/cpu_interface'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_program_player' in 'src/ned_ros/niryo_robot_program_player'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_sound' in 'src/ned_ros/niryo_robot_sound'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ttl_debug_tools' in 'src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools'
+[0.264s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ttl_driver' in 'src/ned_ros/niryo_robot_hardware_stack/ttl_driver'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'conveyor_interface' in 'src/ned_ros/niryo_robot_hardware_stack/conveyor_interface'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'end_effector_interface' in 'src/ned_ros/niryo_robot_hardware_stack/end_effector_interface'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joints_interface' in 'src/ned_ros/niryo_robot_hardware_stack/joints_interface'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tools_interface' in 'src/ned_ros/niryo_robot_hardware_stack/tools_interface'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_end_effector_publisher_gui' in 'src/ned_ros/niryo_end_effector_publisher_gui'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_hardware_interface' in 'src/ned_ros/niryo_robot_hardware_stack/niryo_robot_hardware_interface'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_tools_commander' in 'src/ned_ros/niryo_robot_tools_commander'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_arm_commander' in 'src/ned_ros/niryo_robot_arm_commander'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_gazebo' in 'src/ned_ros/niryo_robot_gazebo'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_led_ring' in 'src/ned_ros/niryo_robot_led_ring'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_poses_handlers' in 'src/ned_ros/niryo_robot_poses_handlers'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_python_ros_wrapper' in 'src/ned_ros/niryo_robot_python_ros_wrapper'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_user_interface' in 'src/ned_ros/niryo_robot_user_interface'
+[0.265s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'niryo_robot_bringup' in 'src/ned_ros/niryo_robot_bringup'
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /home/leah/ros2_jazzy/install
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.301s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk' with build type 'catkin'
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk'
+[0.305s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/dynamixel_sdk -- -j4 -l4
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk' returned '2': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/dynamixel_sdk -- -j4 -l4
+[1.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ros_package_path')
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/ros_package_path.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/ros_package_path.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/ros_package_path.sh'
+[1.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'pkg_config_path')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/pkg_config_path.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/pkg_config_path.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/pkg_config_path.sh'
+[1.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'pkg_config_path_multiarch')
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/pkg_config_path_multiarch.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/pkg_config_path_multiarch.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/hook/pkg_config_path_multiarch.sh'
+[1.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk' for CMake module files
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk' for CMake config files
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/lib/python3.12/site-packages'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/bin'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[1.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[1.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.272s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.282s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.295s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leah/ros2_jazzy_ned2/install/local_setup.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leah/ros2_jazzy_ned2/install/_local_setup_util_ps1.py'
+[1.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leah/ros2_jazzy_ned2/install/setup.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leah/ros2_jazzy_ned2/install/local_setup.sh'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leah/ros2_jazzy_ned2/install/_local_setup_util_sh.py'
+[1.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leah/ros2_jazzy_ned2/install/setup.sh'
+[1.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leah/ros2_jazzy_ned2/install/local_setup.bash'
+[1.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leah/ros2_jazzy_ned2/install/setup.bash'
+[1.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leah/ros2_jazzy_ned2/install/local_setup.zsh'
+[1.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leah/ros2_jazzy_ned2/install/setup.zsh'

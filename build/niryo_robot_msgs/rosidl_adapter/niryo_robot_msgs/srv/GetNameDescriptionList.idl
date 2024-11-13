@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from niryo_robot_msgs/srv/GetNameDescriptionList.srv
+// generated code does not contain a copyright notice
+
+#include "niryo_robot_msgs/msg/BasicObject.idl"
+
+module niryo_robot_msgs {
+  module srv {
+    struct GetNameDescriptionList_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetNameDescriptionList_Response {
+      int32 status;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "this service embed both old and new way to structure the datas in order to stay compatible with NS1/2")
+      sequence<string> name_list;
+
+      sequence<string> description_list;
+
+      sequence<niryo_robot_msgs::msg::BasicObject> objects;
+    };
+  };
+};

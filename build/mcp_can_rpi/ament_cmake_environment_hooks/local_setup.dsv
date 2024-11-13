@@ -1,0 +1,2 @@
+source;share/mcp_can_rpi/environment/ament_prefix_path.sh
+source;share/mcp_can_rpi/environment/path.sh

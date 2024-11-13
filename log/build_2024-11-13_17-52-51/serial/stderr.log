@@ -1,0 +1,4 @@
+[31mCMake Error at tests/CMakeLists.txt:2 (catkin_add_gtest):
+  Unknown CMake command "catkin_add_gtest".
+
+[0m

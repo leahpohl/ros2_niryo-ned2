@@ -1,0 +1,32 @@
+[0.050s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/niryo_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/niryo_robot_description
+[0.127s] -- The C compiler identification is GNU 13.2.0
+[0.185s] -- The CXX compiler identification is GNU 13.2.0
+[0.207s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.364s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.554s] -- Detecting CXX compile features
+[0.554s] -- Detecting CXX compile features - done
+[0.554s] -- 
+[0.554s] ## Reading niryo_robot_description/CMakeLists.txt...
+[0.554s] -- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[1.088s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.620s] -- Found ament_lint_auto: 0.17.1 (/home/leah/ros2_jazzy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[1.633s] -- Found ament_lint_common: 0.17.1 (/home/leah/ros2_jazzy/install/ament_lint_common/share/ament_lint_common/cmake)
+[2.018s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.042s] -- Added test 'lint_cmake' to check CMake code style
+[2.054s] -- Added test 'xmllint' to check XML markup files
+[2.065s] -- Configuring done (2.0s)
+[2.069s] -- Generating done (0.0s)
+[2.070s] -- Build files have been written to: /home/leah/ros2_jazzy_ned2/build/niryo_robot_description
+[2.070s] [33mCMake Warning:
+[2.070s]   Manually-specified variables were not used by the project:
+[2.070s] 
+[2.070s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.070s]     CATKIN_SYMLINK_INSTALL
+[2.070s] 
+[2.070s] [0m

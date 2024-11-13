@@ -1,0 +1,6 @@
+-- 
+## Reading dynamixel_sdk/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found serial: 1.2.1 (/home/leah/ros2_jazzy_ned2/install/serial/share/serial/cmake)
+-- Configuring incomplete, errors occurred!

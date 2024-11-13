@@ -1,0 +1,47 @@
+[31mCMake Error in CMakeLists.txt:
+  Target "dynamixel_sdk" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/message"
+
+  which is prefixed in the source directory.
+
+[0m
+[31mCMake Error in CMakeLists.txt:
+  Target "dynamixel_sdk" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/("
+
+  which is prefixed in the source directory.
+
+[0m
+[31mCMake Error in CMakeLists.txt:
+  Target "dynamixel_sdk" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/STATUS"
+
+  which is prefixed in the source directory.
+
+[0m
+[31mCMake Error in CMakeLists.txt:
+  Target "dynamixel_sdk" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/Serial include directory: "
+
+  which is prefixed in the source directory.
+
+[0m
+[31mCMake Error in CMakeLists.txt:
+  Target "dynamixel_sdk" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/)"
+
+  which is prefixed in the source directory.
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:483: cmake_check_build_system] Error 1

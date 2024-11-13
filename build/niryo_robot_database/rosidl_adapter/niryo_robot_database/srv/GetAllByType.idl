@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from niryo_robot_database/srv/GetAllByType.srv
+// generated code does not contain a copyright notice
+
+#include "niryo_robot_database/msg/FilePath.idl"
+
+module niryo_robot_database {
+  module srv {
+    struct GetAllByType_Request {
+      string type;
+    };
+    struct GetAllByType_Response {
+      int32 status;
+
+      sequence<niryo_robot_database::msg::FilePath> filepaths;
+    };
+  };
+};

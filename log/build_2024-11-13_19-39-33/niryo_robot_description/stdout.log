@@ -1,0 +1,153 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+## Reading niryo_robot_description/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.1 (/home/leah/ros2_jazzy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found ament_lint_common: 0.17.1 (/home/leah/ros2_jazzy/install/ament_lint_common/share/ament_lint_common/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/leah/ros2_jazzy_ned2/build/niryo_robot_description
+-- Install configuration: ""
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/config
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/config/default_config.rviz
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/launch/without_mesh_display.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/launch/display.launch
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada/arm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada/wrist_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada/elbow_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada/base_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada/hand_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada/forearm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/collada/shoulder_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl/forearm_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl/shoulder_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl/wrist_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl/arm_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl/hand_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl/elbow_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned2/stl/base_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/led_ring
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/led_ring/led.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/gripper_1
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/gripper_1/mors_2.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/gripper_1/base_gripper_1.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/gripper_1/mors_1.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada/arm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada/wrist_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada/elbow_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada/base_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada/hand_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada/forearm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/collada/shoulder_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl/forearm_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl/shoulder_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl/wrist_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl/arm_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl/hand_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl/elbow_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/one/stl/base_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada/arm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada/wrist_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada/elbow_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada/base_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada/hand_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada/forearm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/collada/shoulder_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl/hand_link.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl/arm_link.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl/elbow_link.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl/forearm_link.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl/base_link.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl/wrist_link.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned3pro/stl/shoulder_link.STL
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada/arm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada/wrist_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada/elbow_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada/base_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada/hand_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada/forearm_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/collada/shoulder_link.dae
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl/forearm_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl/shoulder_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl/wrist_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl/arm_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl/hand_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl/elbow_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/meshes/ned/stl/base_link.stl
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2/niryo_ned2_gripper1_n_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2/niryo_ned2_gazebo.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2/niryo_ned2.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2/niryo_ned2_param.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2/niryo_ned2_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2/without_mesh_niryo_ned2.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned2/niryo_ned2.transmission.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one/without_mesh_niryo_one.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one/niryo_one_gripper1_n_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one/niryo_one_gazebo.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one/niryo_one.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one/niryo_one_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one/niryo_one.transmission.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/one/niryo_one_param.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro/niryo_ned3pro_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro/niryo_ned3pro.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro/niryo_ned3pro_gripper1_n_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro/niryo_ned3pro_param.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro/niryo_ned3pro.transmission.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro/without_mesh_niryo_ned3pro.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned3pro/niryo_ned3pro_gazebo.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned/niryo_ned_param.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned/niryo_ned_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned/niryo_ned.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned/niryo_ned.transmission.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned/niryo_ned_gripper1_n_camera.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned/without_mesh_niryo_ned.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/urdf/ned/niryo_ned_gazebo.urdf.xacro
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/ament_index/resource_index/package_run_dependencies/niryo_robot_description
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/ament_index/resource_index/parent_prefix_path/niryo_robot_description
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/environment/path.sh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/environment/path.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/local_setup.bash
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/local_setup.sh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/local_setup.zsh
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/local_setup.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/package.dsv
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/ament_index/resource_index/packages/niryo_robot_description
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/cmake/niryo_robot_descriptionConfig.cmake
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/cmake/niryo_robot_descriptionConfig-version.cmake
+-- Installing: /home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/package.xml

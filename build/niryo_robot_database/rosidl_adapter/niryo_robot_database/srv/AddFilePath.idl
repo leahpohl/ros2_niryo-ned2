@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from niryo_robot_database/srv/AddFilePath.srv
+// generated code does not contain a copyright notice
+
+
+module niryo_robot_database {
+  module srv {
+    struct AddFilePath_Request {
+      string type;
+
+      string name;
+
+      string path;
+    };
+    struct AddFilePath_Response {
+      int32 status;
+
+      string message;
+    };
+  };
+};

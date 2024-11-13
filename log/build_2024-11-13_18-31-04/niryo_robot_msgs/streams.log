@@ -1,0 +1,54 @@
+[0.071s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/niryo_robot_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/niryo_robot_msgs
+[0.097s] -- 
+[0.098s] ## Reading niryo_robot_msgs/CMakeLists.txt...
+[0.098s] -- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[0.531s] -- Found geometry_msgs: 5.3.5 (/home/leah/ros2_jazzy/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.559s] -- Found rosidl_generator_c: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[0.620s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[0.683s] -- Found rosidl_default_generators: 1.6.0 (/home/leah/ros2_jazzy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[0.729s] -- Found rosidl_adapter: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.387s] Error parsing '/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs/package.xml':
+[1.500s] Traceback (most recent call last):
+[1.500s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.508s]     root = dom.parseString(data)
+[1.508s]            ^^^^^^^^^^^^^^^^^^^^^
+[1.508s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[1.513s]     return expatbuilder.parseString(string)
+[1.513s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.513s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[1.516s]     return builder.parseString(string)
+[1.516s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.516s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[1.516s]     parser.Parse(string, True)
+[1.516s] xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 31, column 0
+[1.516s] 
+[1.516s] During handling of the above exception, another exception occurred:
+[1.516s] 
+[1.516s] Traceback (most recent call last):
+[1.516s]   File "/home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.516s]     main()
+[1.516s]   File "/home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.516s]     raise e
+[1.516s]   File "/home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.516s]     package = parse_package_string(
+[1.516s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.516s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.516s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.516s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs/package.xml':
+[1.516s] The manifest contains invalid XML:
+[1.516s] XML or text declaration not at start of entity: line 31, column 0
+[1.530s] [31mCMake Error at /home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.530s]   execute_process(/usr/bin/python3
+[1.530s]   /home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.530s]   /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs/package.xml
+[1.530s]   /home/leah/ros2_jazzy_ned2/build/niryo_robot_msgs/ament_cmake_core/package.cmake)
+[1.530s]   returned error code 1
+[1.530s] Call Stack (most recent call first):
+[1.530s]   /home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.530s]   /home/leah/ros2_jazzy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[1.530s]   CMakeLists.txt:105 (rosidl_generate_interfaces)
+[1.530s] 
+[1.530s] [0m
+[1.530s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,23 @@
+[  0%] Built target niryo_robot_msgs__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_copy_niryo_robot_msgs
+[  0%] Built target niryo_robot_msgs__cpp
+[ 28%] Built target niryo_robot_msgs__rosidl_generator_c
+[ 38%] Built target niryo_robot_msgs__rosidl_typesupport_cpp
+[ 48%] Built target niryo_robot_msgs__rosidl_typesupport_fastrtps_c
+[ 58%] Built target niryo_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target niryo_robot_msgs__rosidl_typesupport_introspection_c
+[ 77%] Built target niryo_robot_msgs__rosidl_typesupport_c
+[ 87%] Built target niryo_robot_msgs__rosidl_typesupport_introspection_cpp
+running egg_info
+[ 87%] Built target niryo_robot_msgs
+writing niryo_robot_msgs.egg-info/PKG-INFO
+writing dependency_links to niryo_robot_msgs.egg-info/dependency_links.txt
+writing top-level names to niryo_robot_msgs.egg-info/top_level.txt
+[ 87%] Built target niryo_robot_msgs__py
+[ 97%] Built target niryo_robot_msgs__rosidl_generator_py
+reading manifest file 'niryo_robot_msgs.egg-info/SOURCES.txt'
+writing manifest file 'niryo_robot_msgs.egg-info/SOURCES.txt'
+[ 98%] Built target niryo_robot_msgs_s__rosidl_typesupport_introspection_c
+[ 99%] Built target niryo_robot_msgs_s__rosidl_typesupport_c
+[ 99%] Built target ament_cmake_python_build_niryo_robot_msgs_egg
+[100%] Built target niryo_robot_msgs_s__rosidl_typesupport_fastrtps_c

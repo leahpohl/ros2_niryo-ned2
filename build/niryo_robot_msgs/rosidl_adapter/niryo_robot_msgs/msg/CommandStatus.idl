@@ -1,0 +1,145 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from niryo_robot_msgs/msg/CommandStatus.msg
+// generated code does not contain a copyright notice
+
+
+module niryo_robot_msgs {
+  module msg {
+    module CommandStatus_Constants {
+      @verbatim (language="comment", text=
+        "overall behavior")
+      const int32 SUCCESS = 1;
+      const int32 CANCELLED = 2;
+      const int32 PREEMPTED = 3;
+      const int32 REJECTED = 4;
+      const int32 NO_CONNECTION = 5;
+      const int32 GOAL_TIMEOUT = 6;
+      const int32 FAILURE = -1;
+      const int32 ABORTED = -3;
+      const int32 STOPPED = -4;
+      const int32 BAD_HARDWARE_VERSION = -10;
+      const int32 ROS_ERROR = -20;
+      const int32 FILE_ALREADY_EXISTS = -30;
+      const int32 FILE_NOT_FOUND = -31;
+      const int32 UNKNOWN_COMMAND = -50;
+      const int32 NOT_IMPLEMENTED_COMMAND = -51;
+      const int32 INVALID_PARAMETERS = -52;
+      @verbatim (language="comment", text=
+        "- Hardware")
+      const int32 HARDWARE_FAILURE = -110;
+      const int32 HARDWARE_NOT_OK = -111;
+      const int32 LEARNING_MODE_ON = -112;
+      const int32 CALIBRATION_NOT_DONE = -113;
+      const int32 DIGITAL_IO_PANEL_ERROR = -114;
+      const int32 LED_MANAGER_ERROR = -115;
+      const int32 BUTTON_ERROR = -116;
+      const int32 WRONG_MOTOR_TYPE = -117;
+      const int32 TTL_WRITE_ERROR = -118;
+      const int32 TTL_READ_ERROR = -119;
+      const int32 CAN_WRITE_ERROR = -120;
+      const int32 CAN_READ_ERROR = -121;
+      const int32 NO_CONVEYOR_LEFT = -122;
+      const int32 NO_CONVEYOR_FOUND = -123;
+      const int32 CONVEYOR_ID_INVALID = -124;
+      const int32 CALIBRATION_IN_PROGRESS = -125;
+      const int32 HARDWARE_NOT_SUPPORTED = -126;
+      @verbatim (language="comment", text=
+        "- Vision")
+      const int32 VIDEO_STREAM_ON_OFF_FAILURE = -170;
+      const int32 VIDEO_STREAM_NOT_RUNNING = -171;
+      const int32 OBJECT_NOT_FOUND = -172;
+      const int32 MARKERS_NOT_FOUND = -173;
+      @verbatim (language="comment", text=
+        "- Commander" "\n"        "Arm Commander")
+      const int32 ARM_COMMANDER_FAILURE = -220;
+      const int32 GOAL_STILL_ACTIVE = -221;
+      const int32 JOG_CONTROLLER_ENABLED = -222;
+      const int32 CONTROLLER_PROBLEMS = -223;
+      const int32 SHOULD_RESTART = -224;
+      const int32 JOG_CONTROLLER_FAILURE = -225;
+      const int32 COLLISION = -226;
+      const int32 PAUSE_TIMEOUT = -227;
+      const int32 CANCEL_PAUSE = -228;
+      const int32 PLAN_FAILED = -230;
+      const int32 NO_PLAN_AVAILABLE = -231;
+      const int32 INVERT_KINEMATICS_FAILURE = -232;
+      const int32 FORWARD_KINEMATICS_FAILURE = -233;
+      @verbatim (language="comment", text=
+        "Tool Commander")
+      const int32 TOOL_FAILURE = -251;
+      const int32 TOOL_ID_INVALID = -252;
+      const int32 TOOL_NOT_CONNECTED = -253;
+      const int32 TOOL_ROS_INTERFACE_ERROR = -254;
+      @verbatim (language="comment", text=
+        "- Pose Handlers")
+      const int32 POSES_HANDLER_CREATION_FAILED = -300;
+      const int32 POSES_HANDLER_REMOVAL_FAILED = -301;
+      const int32 POSES_HANDLER_READ_FAILURE = -302;
+      const int32 POSES_HANDLER_COMPUTE_FAILURE = -303;
+      const int32 DYNAMIC_FRAME_DOES_NOT_EXISTS = -304;
+      const int32 DYNAMIC_FRAME_EDIT_FAILED = -305;
+      const int32 DYNAMIC_FRAME_CREATION_FAILED = -306;
+      const int32 CONVERT_FAILED = -307;
+      const int32 WORKSPACE_CREATION_FAILED = -308;
+      const int32 TF_ERROR = -309;
+      @verbatim (language="comment", text=
+        "- Trajectory Handler")
+      const int32 TRAJECTORY_HANDLER_CREATION_FAILED = -310;
+      const int32 TRAJECTORY_HANDLER_REMOVAL_FAILED = -311;
+      const int32 TRAJECTORY_HANDLER_RENAME_FAILURE = -312;
+      const int32 TRAJECTORY_HANDLER_EXECUTE_REGISTERED_FAILURE = -313;
+      const int32 TRAJECTORY_HANDLER_EXECUTE_FAILURE = -314;
+      const int32 TRAJECTORY_HANDLER_GET_TRAJECTORY_FAILURE = -315;
+      const int32 TRAJECTORY_HANDLER_GET_TRAJECTORY_LIST_FAILURE = -316;
+      @verbatim (language="comment", text=
+        "- Programs Manager")
+      const int32 PROGRAMS_MANAGER_FAILURE = -320;
+      const int32 PROGRAMS_MANAGER_READ_FAILURE = -321;
+      const int32 PROGRAMS_MANAGER_PROGRAM_ALREADY_RUNNING = -324;
+      const int32 PROGRAMS_MANAGER_UNKNOWN_LANGUAGE = -325;
+      const int32 PROGRAMS_MANAGER_NOT_RUNNABLE_LANGUAGE = -326;
+      const int32 PROGRAMS_MANAGER_EXECUTION_FAILED = -327;
+      const int32 PROGRAMS_MANAGER_STOPPING_FAILED = -328;
+      const int32 PROGRAMS_MANAGER_AUTORUN_FAILURE = -329;
+      const int32 PROGRAMS_MANAGER_WRITING_FAILURE = -330;
+      const int32 PROGRAMS_MANAGER_FILE_ALREADY_EXISTS = -331;
+      const int32 PROGRAMS_MANAGER_FILE_DOES_NOT_EXIST = -332;
+      @verbatim (language="comment", text=
+        "- Credentials")
+      const int32 CREDENTIALS_FILE_ERROR = -400;
+      const int32 CREDENTIALS_UNKNOWN_ERROR = -401;
+      @verbatim (language="comment", text=
+        "- System Api Client")
+      const int32 SYSTEM_API_CLIENT_UNKNOWN_ERROR = -440;
+      const int32 SYSTEM_API_CLIENT_INVALID_ROBOT_NAME = -441;
+      const int32 SYSTEM_API_CLIENT_REQUEST_FAILED = -442;
+      const int32 SYSTEM_API_CLIENT_UNKNOWN_COMMAND = -443;
+      const int32 SYSTEM_API_CLIENT_COMMAND_FAILED = -444;
+      @verbatim (language="comment", text=
+        "- Database")
+      const int32 DATABASE_DB_ERROR = -460;
+      const int32 DATABASE_SETTINGS_UNKNOWN = -461;
+      const int32 DATABASE_SETTINGS_TYPE_MISMATCH = -462;
+      const int32 DATABASE_FILE_PATH_UNKNOWN = -463;
+      @verbatim (language="comment", text=
+        "- Reports")
+      const int32 REPORTS_UNABLE_TO_SEND = -470;
+      const int32 REPORTS_SENDING_FAIL = -471;
+      const int32 REPORTS_FETCHING_FAIL = -472;
+      const int32 REPORTS_SERVICE_UNREACHABLE = -473;
+      @verbatim (language="comment", text=
+        "- Sound interface")
+      const int32 SOUND_FILE_NOT_FOUND = -500;
+      const int32 PROTECTED_SOUND_NAME = -501;
+      const int32 INVALID_SOUND_NAME = -502;
+      const int32 INVALID_SOUND_FORMAT = -503;
+      const int32 SOUND_TIMEOUT = -504;
+      @verbatim (language="comment", text=
+        "- I2C interface")
+      const int32 MISSING_I2C = -510;
+    };
+    struct CommandStatus {
+      int32 val;
+    };
+  };
+};

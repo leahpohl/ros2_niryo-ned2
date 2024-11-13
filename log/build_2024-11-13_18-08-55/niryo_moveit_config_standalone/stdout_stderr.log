@@ -1,0 +1,9 @@
+-- 
+## Reading niryo_moveit_config_standalone/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found niryo_robot_description: 5.0.0 (/home/leah/ros2_jazzy_ned2/install/niryo_robot_description/share/niryo_robot_description/cmake)
+-- Found ament_lint_auto: 0.17.1 (/home/leah/ros2_jazzy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/leah/ros2_jazzy_ned2/build/niryo_moveit_config_standalone

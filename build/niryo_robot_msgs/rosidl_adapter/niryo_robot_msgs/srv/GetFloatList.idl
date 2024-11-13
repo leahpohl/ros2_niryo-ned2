@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from niryo_robot_msgs/srv/GetFloatList.srv
+// generated code does not contain a copyright notice
+
+
+module niryo_robot_msgs {
+  module srv {
+    struct GetFloatList_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetFloatList_Response {
+      sequence<float> values;
+
+      int32 status;
+
+      string message;
+    };
+  };
+};

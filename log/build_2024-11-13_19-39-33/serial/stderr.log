@@ -1,0 +1,26 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+    CATKIN_SYMLINK_INSTALL
+
+[0m
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_readWorks_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:69:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   69 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_writeWorks_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:77:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K read[m[K(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   77 |   [01;35m[Kread(master_fd, buf, 4)[m[K;
+      |   [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_timeoutWorks_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:87:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   87 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:[m[K In member function ‘[01m[Kvirtual void {anonymous}::SerialTests_partialRead_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:94:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   94 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/serial/tests/unix_serial_tests.cc:101:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  101 |   [01;35m[Kwrite(master_fd, "abc\n", 4)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K

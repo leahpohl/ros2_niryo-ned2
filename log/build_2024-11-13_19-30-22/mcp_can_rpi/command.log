@@ -1,0 +1,4 @@
+Invoking command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi -- -j4 -l4
+Invoked command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi -- -j4 -l4
+Invoking command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi
+Invoked command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi

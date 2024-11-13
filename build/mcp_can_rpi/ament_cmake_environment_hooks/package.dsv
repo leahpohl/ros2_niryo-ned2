@@ -1,0 +1,4 @@
+source;share/mcp_can_rpi/local_setup.bash
+source;share/mcp_can_rpi/local_setup.dsv
+source;share/mcp_can_rpi/local_setup.sh
+source;share/mcp_can_rpi/local_setup.zsh

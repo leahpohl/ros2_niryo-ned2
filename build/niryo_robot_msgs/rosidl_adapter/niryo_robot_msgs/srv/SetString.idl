@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from niryo_robot_msgs/srv/SetString.srv
+// generated code does not contain a copyright notice
+
+
+module niryo_robot_msgs {
+  module srv {
+    struct SetString_Request {
+      string value;
+    };
+    struct SetString_Response {
+      int32 status;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from niryo_robot_msgs/msg/HardwareStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module niryo_robot_msgs {
+  module msg {
+    module HardwareStatus_Constants {
+      @verbatim (language="comment", text=
+        "Hardware State")
+      const int8 ERROR = -1;
+      const int8 NORMAL = 0;
+      const int8 DEBUG = 1;
+      const int8 REBOOT = 2;
+    };
+    struct HardwareStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Raspberry Pi board")
+      int32 rpi_temperature;
+
+      @verbatim (language="comment", text=
+        "Ned, One, ....")
+      string hardware_version;
+
+      int8 hardware_state;
+
+      @verbatim (language="comment", text=
+        "Motors")
+      boolean connection_up;
+
+      string error_message;
+
+      boolean calibration_needed;
+
+      boolean calibration_in_progress;
+
+      sequence<string> motor_names;
+
+      sequence<string> motor_types;
+
+      sequence<int32> temperatures;
+
+      sequence<double> voltages;
+
+      sequence<int32> hardware_errors;
+
+      sequence<string> hardware_errors_message;
+    };
+  };
+};

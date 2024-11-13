@@ -1,0 +1,21 @@
+[0.027s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/dynamixel_sdk -- -j4 -l4
+[0.162s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o[0m
+[0.162s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/protocol2_packet_handler.cpp.o[0m
+[0.162s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o[0m
+[0.179s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/protocol1_packet_handler.cpp.o[0m
+[0.193s] In file included from [01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/src/port_handler_linux.cpp:38[m[K:
+[0.193s] [01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/include/dynamixel_sdk/port_handler_linux.h:26:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[0.193s]    26 | #include [01;31m[K"serial/serial.h"[m[K
+[0.193s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.193s] compilation terminated.
+[0.194s] gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:160: CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o] Error 1
+[0.194s] gmake[2]: *** Waiting for unfinished jobs....
+[0.195s] In file included from [01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/src/port_handler.cpp:21[m[K:
+[0.195s] [01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/include/dynamixel_sdk/port_handler_linux.h:26:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[0.195s]    26 | #include [01;31m[K"serial/serial.h"[m[K
+[0.195s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.195s] compilation terminated.
+[0.203s] gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:146: CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o] Error 1
+[0.356s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_sdk.dir/all] Error 2
+[0.356s] gmake: *** [Makefile:146: all] Error 2
+[0.360s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk' returned '2': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/dynamixel_sdk -- -j4 -l4

@@ -1,0 +1,41 @@
+[0.029s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/ttl_debug_tools': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk:/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/lib/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk/share:/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/ttl_debug_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/ttl_debug_tools
+[0.049s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.049s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.049s]   CMake.
+[0.049s] 
+[0.049s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.049s]   CMake that the project does not need compatibility with older versions.
+[0.049s] 
+[0.049s] [0m
+[0.106s] -- The C compiler identification is GNU 13.2.0
+[0.163s] -- The CXX compiler identification is GNU 13.2.0
+[0.186s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.514s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.515s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.515s] -- 
+[0.515s] ## Reading ttl_debug_tools/CMakeLists.txt...
+[0.546s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.546s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.546s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.546s]   CMake did not find one.
+[0.546s] 
+[0.546s]   Could not find a package configuration file provided by "catkin" with any
+[0.546s]   of the following names:
+[0.546s] 
+[0.546s]     catkinConfig.cmake
+[0.546s]     catkin-config.cmake
+[0.548s] 
+[0.548s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.548s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.548s]   provides a separate development package or SDK, be sure it has been
+[0.548s]   installed.
+[0.548s] 
+[0.548s] [0m
+[0.548s] -- Configuring incomplete, errors occurred!

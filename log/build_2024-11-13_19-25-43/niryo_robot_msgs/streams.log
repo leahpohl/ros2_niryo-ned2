@@ -1,0 +1,25 @@
+[0.089s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/niryo_robot_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/niryo_robot_msgs -- -j4 -l4
+[0.245s] [  0%] Built target niryo_robot_msgs__rosidl_generator_type_description
+[0.265s] [  0%] Built target ament_cmake_python_copy_niryo_robot_msgs
+[0.341s] [  0%] Built target niryo_robot_msgs__cpp
+[0.351s] [ 28%] Built target niryo_robot_msgs__rosidl_generator_c
+[0.416s] [ 38%] Built target niryo_robot_msgs__rosidl_typesupport_cpp
+[0.463s] [ 48%] Built target niryo_robot_msgs__rosidl_typesupport_fastrtps_c
+[0.479s] [ 58%] Built target niryo_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.509s] [ 67%] Built target niryo_robot_msgs__rosidl_typesupport_introspection_c
+[0.518s] [ 77%] Built target niryo_robot_msgs__rosidl_typesupport_c
+[0.571s] [ 87%] Built target niryo_robot_msgs__rosidl_typesupport_introspection_cpp
+[0.621s] running egg_info
+[0.631s] [ 87%] Built target niryo_robot_msgs
+[0.651s] writing niryo_robot_msgs.egg-info/PKG-INFO
+[0.651s] writing dependency_links to niryo_robot_msgs.egg-info/dependency_links.txt
+[0.651s] writing top-level names to niryo_robot_msgs.egg-info/top_level.txt
+[0.689s] [ 87%] Built target niryo_robot_msgs__py
+[0.759s] [ 97%] Built target niryo_robot_msgs__rosidl_generator_py
+[0.759s] reading manifest file 'niryo_robot_msgs.egg-info/SOURCES.txt'
+[0.759s] writing manifest file 'niryo_robot_msgs.egg-info/SOURCES.txt'
+[0.802s] [ 98%] Built target niryo_robot_msgs_s__rosidl_typesupport_introspection_c
+[0.823s] [ 99%] Built target niryo_robot_msgs_s__rosidl_typesupport_c
+[0.828s] [ 99%] Built target ament_cmake_python_build_niryo_robot_msgs_egg
+[0.832s] [100%] Built target niryo_robot_msgs_s__rosidl_typesupport_fastrtps_c
+[0.891s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/niryo_robot_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/niryo_robot_msgs -- -j4 -l4

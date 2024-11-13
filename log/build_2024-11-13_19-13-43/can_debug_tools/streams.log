@@ -1,0 +1,25 @@
+[0.039s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/can_debug_tools': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/can_debug_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/can_debug_tools
+[0.057s] -- 
+[0.057s] ## Reading can_debug_tools/CMakeLists.txt...
+[0.109s] -- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[0.599s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.011s] -- Found mcp_can_rpi: 1.0.0 (/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/cmake)
+[1.114s] [31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:141 (find_package):
+[1.114s]   Could not find a package configuration file provided by
+[1.114s]   "boost_program_options" (requested version 1.83.0) with any of the
+[1.114s]   following names:
+[1.114s] 
+[1.115s]     boost_program_optionsConfig.cmake
+[1.115s]     boost_program_options-config.cmake
+[1.115s] 
+[1.115s]   Add the installation prefix of "boost_program_options" to CMAKE_PREFIX_PATH
+[1.115s]   or set "boost_program_options_DIR" to a directory containing one of the
+[1.115s]   above files.  If "boost_program_options" provides a separate development
+[1.115s]   package or SDK, be sure it has been installed.
+[1.115s] Call Stack (most recent call first):
+[1.115s]   /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:262 (boost_find_component)
+[1.115s]   /usr/share/cmake-3.28/Modules/FindBoost.cmake:594 (find_package)
+[1.115s]   CMakeLists.txt:205 (find_package)
+[1.115s] 
+[1.115s] [0m
+[1.115s] -- Configuring incomplete, errors occurred!

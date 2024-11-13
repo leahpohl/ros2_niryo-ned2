@@ -1,0 +1,5 @@
+[0.060s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi -- -j4 -l4
+[0.182s] [ 50%] [32mBuilding CXX object CMakeFiles/mcp_can_rpi.dir/src/mcp_can_rpi.cpp.o[0m
+[0.281s] [100%] [32m[1mLinking CXX static library libmcp_can_rpi.a[0m
+[0.456s] [100%] Built target mcp_can_rpi
+[0.475s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi -- -j4 -l4

@@ -1,0 +1,23 @@
+[0.044s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi -- -j4 -l4
+[0.159s] [100%] Built target mcp_can_rpi
+[0.176s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi -- -j4 -l4
+[0.296s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi
+[0.316s] -- Install configuration: ""
+[0.319s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/lib/libmcp_can_rpi.a
+[0.322s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/include/mcp_can_rpi
+[0.322s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/include/mcp_can_rpi/mcp_can_rpi.h
+[0.322s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/include/mcp_can_rpi/mcp_can_dfs_rpi.h
+[0.323s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/ament_index/resource_index/package_run_dependencies/mcp_can_rpi
+[0.323s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/ament_index/resource_index/parent_prefix_path/mcp_can_rpi
+[0.323s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/environment/ament_prefix_path.dsv
+[0.324s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/environment/path.dsv
+[0.324s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/local_setup.bash
+[0.324s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/local_setup.sh
+[0.324s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/local_setup.zsh
+[0.324s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/local_setup.dsv
+[0.325s] -- Installing: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/package.dsv
+[0.325s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/ament_index/resource_index/packages/mcp_can_rpi
+[0.325s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/cmake/mcp_can_rpiConfig.cmake
+[0.325s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/cmake/mcp_can_rpiConfig-version.cmake
+[0.325s] -- Up-to-date: /home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/package.xml
+[0.328s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/mcp_can_rpi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/leah/ros2_jazzy_ned2/build/mcp_can_rpi

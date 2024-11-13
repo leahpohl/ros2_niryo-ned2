@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from niryo_robot_msgs/msg/BasicObjectArray.msg
+// generated code does not contain a copyright notice
+
+#include "niryo_robot_msgs/msg/BasicObject.idl"
+
+module niryo_robot_msgs {
+  module msg {
+    struct BasicObjectArray {
+      sequence<niryo_robot_msgs::msg::BasicObject> objects;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+[0.030s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/can_debug_tools': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/can_debug_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/can_debug_tools
+[0.049s] -- 
+[0.049s] ## Reading can_debug_tools/CMakeLists.txt...
+[0.056s] -- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[0.485s] -- Found mcp_can_rpi: 1.0.0 (/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/cmake)
+[0.517s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options 
+[0.558s] -- Found ament_lint_auto: 0.17.1 (/home/leah/ros2_jazzy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[0.763s] -- Configuring done (0.7s)
+[0.770s] -- Generating done (0.0s)
+[0.770s] -- Build files have been written to: /home/leah/ros2_jazzy_ned2/build/can_debug_tools

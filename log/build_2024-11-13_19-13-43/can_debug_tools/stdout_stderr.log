@@ -1,0 +1,24 @@
+-- 
+## Reading can_debug_tools/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found mcp_can_rpi: 1.0.0 (/home/leah/ros2_jazzy_ned2/install/mcp_can_rpi/share/mcp_can_rpi/cmake)
+[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:141 (find_package):
+  Could not find a package configuration file provided by
+  "boost_program_options" (requested version 1.83.0) with any of the
+  following names:
+
+    boost_program_optionsConfig.cmake
+    boost_program_options-config.cmake
+
+  Add the installation prefix of "boost_program_options" to CMAKE_PREFIX_PATH
+  or set "boost_program_options_DIR" to a directory containing one of the
+  above files.  If "boost_program_options" provides a separate development
+  package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake:262 (boost_find_component)
+  /usr/share/cmake-3.28/Modules/FindBoost.cmake:594 (find_package)
+  CMakeLists.txt:205 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!

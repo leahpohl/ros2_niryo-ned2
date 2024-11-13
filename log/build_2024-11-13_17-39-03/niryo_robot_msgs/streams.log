@@ -1,0 +1,33 @@
+[0.081s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/niryo_robot_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/niryo_robot_msgs
+[0.176s] -- The C compiler identification is GNU 13.2.0
+[0.233s] -- The CXX compiler identification is GNU 13.2.0
+[0.254s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.407s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.407s] -- Detecting C compile features
+[0.407s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.579s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.616s] -- 
+[0.616s] ## Reading niryo_robot_msgs/CMakeLists.txt...
+[0.616s] -- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[1.137s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.599s] -- Found geometry_msgs: 5.3.5 (/home/leah/ros2_jazzy/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.790s] -- Found rosidl_generator_c: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[1.847s] -- Found rosidl_generator_cpp: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[1.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[2.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[2.124s] -- Found rosidl_default_generators: 1.6.0 (/home/leah/ros2_jazzy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[2.264s] -- Found rosidl_adapter: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[3.031s] [31mCMake Error at /home/leah/ros2_jazzy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[3.031s]   Packages installing interfaces must include
+[3.031s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[3.031s]   package.xml
+[3.031s] Call Stack (most recent call first):
+[3.031s]   CMakeLists.txt:105 (rosidl_generate_interfaces)
+[3.031s] 
+[3.031s] [0m
+[3.032s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,8 @@
+-- 
+## Reading serial/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[31mCMake Error at tests/CMakeLists.txt:16 (ament_add_gtest):
+  Unknown CMake command "ament_add_gtest".
+
+[0m
+-- Configuring incomplete, errors occurred!

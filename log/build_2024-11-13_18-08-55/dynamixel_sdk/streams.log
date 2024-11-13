@@ -1,0 +1,42 @@
+[0.029s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk
+[0.045s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.045s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.045s]   CMake.
+[0.045s] 
+[0.045s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.046s]   CMake that the project does not need compatibility with older versions.
+[0.046s] 
+[0.046s] [0m
+[0.114s] -- The C compiler identification is GNU 13.2.0
+[0.185s] -- The CXX compiler identification is GNU 13.2.0
+[0.235s] -- Detecting C compiler ABI info
+[0.427s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.441s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.454s] -- Detecting CXX compiler ABI info
+[0.655s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.663s] -- Detecting CXX compile features
+[0.663s] -- Detecting CXX compile features - done
+[0.663s] -- 
+[0.663s] ## Reading dynamixel_sdk/CMakeLists.txt...
+[0.709s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[0.709s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.710s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.710s]   CMake did not find one.
+[0.710s] 
+[0.710s]   Could not find a package configuration file provided by "catkin" with any
+[0.710s]   of the following names:
+[0.710s] 
+[0.710s]     catkinConfig.cmake
+[0.710s]     catkin-config.cmake
+[0.710s] 
+[0.710s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.710s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.710s]   provides a separate development package or SDK, be sure it has been
+[0.710s]   installed.
+[0.711s] 
+[0.711s] [0m
+[0.711s] -- Configuring incomplete, errors occurred!
+[0.838s] Invoked command in '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk' returned '1': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk

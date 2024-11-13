@@ -1,0 +1,19 @@
+-- 
+## Reading niryo_robot_msgs/CMakeLists.txt...
+-- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found geometry_msgs: 5.3.5 (/home/leah/ros2_jazzy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_default_generators: 1.6.0 (/home/leah/ros2_jazzy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.4 (/home/leah/ros2_jazzy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[31mCMake Error at /home/leah/ros2_jazzy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+  Packages installing interfaces must include
+  '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+  package.xml
+Call Stack (most recent call first):
+  CMakeLists.txt:105 (rosidl_generate_interfaces)
+
+[0m
+-- Configuring incomplete, errors occurred!

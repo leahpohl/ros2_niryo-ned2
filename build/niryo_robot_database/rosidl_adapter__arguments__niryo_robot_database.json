@@ -1,0 +1,12 @@
+{
+  "package_name": "niryo_robot_database",
+  "non_idl_tuples": [
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_database:msg/FilePath.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_database:msg/Setting.msg",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_database:srv/AddFilePath.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_database:srv/GetAllByType.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_database:srv/GetSettings.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_database:srv/RmFilePath.srv",
+    "/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_database:srv/SetSettings.srv"
+  ]
+}

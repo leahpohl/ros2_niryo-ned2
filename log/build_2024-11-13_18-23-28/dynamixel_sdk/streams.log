@@ -1,0 +1,15 @@
+[0.017s] Invoking command in '/home/leah/ros2_jazzy_ned2/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/home/leah/ros2_jazzy_ned2/install/serial:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/leah/ros2_jazzy_ned2/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/leah/ros2_jazzy_ned2/install/serial/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/leah/ros2_jazzy_ned2/install/serial/share /usr/bin/cmake /home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leah/ros2_jazzy_ned2/install/dynamixel_sdk
+[0.039s] -- 
+[0.039s] ## Reading dynamixel_sdk/CMakeLists.txt...
+[0.086s] -- Found ament_cmake: 2.5.2 (/home/leah/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+[0.598s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.047s] -- Found serial: 1.2.1 (/home/leah/ros2_jazzy_ned2/install/serial/share/serial/cmake)
+[1.174s] [31mCMake Error at /home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package.cmake:74 (message):
+[1.174s]   ament_package() called with unused arguments:
+[1.174s]   INCLUDE_DIRS;include;LIBRARIES;dynamixel_sdk;DEPENDS;serial
+[1.174s] Call Stack (most recent call first):
+[1.174s]   /home/leah/ros2_jazzy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)
+[1.174s]   CMakeLists.txt:179 (ament_package)
+[1.174s] 
+[1.174s] [0m
+[1.176s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,4 @@
+source;share/niryo_moveit_config_w_gripper1/local_setup.bash
+source;share/niryo_moveit_config_w_gripper1/local_setup.dsv
+source;share/niryo_moveit_config_w_gripper1/local_setup.sh
+source;share/niryo_moveit_config_w_gripper1/local_setup.zsh

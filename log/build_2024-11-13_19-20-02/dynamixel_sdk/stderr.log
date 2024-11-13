@@ -1,0 +1,15 @@
+In file included from [01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/src/port_handler.cpp:21[m[K:
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/include/dynamixel_sdk/port_handler_linux.h:26:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+   26 | #include [01;31m[K"serial/serial.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/src/port_handler_linux.cpp:38[m[K:
+[01m[K/home/leah/ros2_jazzy_ned2/src/ned_ros/niryo_robot_hardware_stack/dynamixel_sdk/include/dynamixel_sdk/port_handler_linux.h:26:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+   26 | #include [01;31m[K"serial/serial.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:146: CMakeFiles/dynamixel_sdk.dir/src/port_handler.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:160: CMakeFiles/dynamixel_sdk.dir/src/port_handler_linux.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_sdk.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
